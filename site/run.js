@@ -64,4 +64,6 @@ new WebpackDevServer(webpack({
   if (error) {
     throw error;
   }
+  console.log('> Starting server on http://localhost:3000');
 });
+
